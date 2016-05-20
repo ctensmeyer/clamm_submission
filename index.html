@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Clamm submission by waldol1</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Clamm submission</h1>
+        <p>This repository contains my submission for the ICFHR2016 COMPETITION ON THE CLASSIFICATION OF MEDIEVAL HANDWRITINGS IN LATIN SCRIPT.</p>
+
+        <p class="view"><a href="https://github.com/waldol1/clamm_submission">View the Project on GitHub <small>waldol1/clamm_submission</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/waldol1/clamm_submission/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/waldol1/clamm_submission/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/waldol1/clamm_submission">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="clamm_submission" class="anchor" href="#clamm_submission" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>clamm_submission</h1>
+
+<p>This repository contains my submission for the ICFHR2016 COMPETITION ON THE CLASSIFICATION OF MEDIEVAL HANDWRITINGS IN LATIN SCRIPT.</p>
+
+<p>The basic approach is subwindow classification with Deep Convolutional Networks that employ Residual Learning and Batch Normalization.  Networks are trained to classify 227x227 subwindows into one of twelve script classes.  At test time, the large grayscale manuscript image is cut up into overlapping 227x227 subwindows and each is classified.  The resulting classification is then the average prediction of each subwindow.  Caffe is the underlying library used to train/test the CNNs.</p>
+
+<p>To improve accuracy, an ensemble of models may be used, which may be configured in a network config file.  In the network config file, each line specifies the training scale (as a percentage, e.g 100 is orignal size, 50% is half size), the network file, and the weights file (all whitespace separated).   The default network config file 'networks_fast.txt' uses 4 networks, while 'networks_accurate.txt' uses 8 networks.  All provided networks are shown in 'networks_all.txt'.</p>
+
+<p>Note that the provided models assumes the following class ordering and associated integer labels:
+1 - Caroline<br>
+2 - Cursiva<br>
+3 - Humanistic<br>
+4 - Humanistic_Cursiva<br>
+5 - Hybrida<br>
+6 - Uncial<br>
+7 - Praegothica<br>
+8 - Southern_Textualis<br>
+9 - Half_uncial<br>
+10 - Semihybrida<br>
+11 - Semitextualis<br>
+12 - Textualis  </p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/waldol1">waldol1</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
