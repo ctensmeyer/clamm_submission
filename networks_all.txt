@@ -1,0 +1,26 @@
+100 networks/deploy.prototxt networks/1/100/resnet_100_1_iter_174000.caffemodel
+100 networks/deploy.prototxt networks/1/100/resnet_100_1_iter_213000.caffemodel
+90 networks/deploy.prototxt networks/1/90/resnet_90_1_iter_153000.caffemodel
+90 networks/deploy.prototxt networks/1/90/resnet_90_1_iter_154000.caffemodel
+75 networks/deploy.prototxt networks/1/75/resnet_75_1_iter_160000.caffemodel
+75 networks/deploy.prototxt networks/1/75/resnet_75_1_iter_182000.caffemodel
+50 networks/deploy.prototxt networks/1/50/resnet_50_1_iter_103000.caffemodel
+50 networks/deploy.prototxt networks/1/50/resnet_50_1_iter_124000.caffemodel
+#
+100 networks/deploy.prototxt networks/2/100/resnet_100_2_iter_119000.caffemodel
+100 networks/deploy.prototxt networks/2/100/resnet_100_2_iter_152000.caffemodel
+90 networks/deploy.prototxt networks/2/90/resnet_90_2_iter_112000.caffemodel
+90 networks/deploy.prototxt networks/2/90/resnet_90_2_iter_112000_2.caffemodel
+75 networks/deploy.prototxt networks/2/75/resnet_75_2_iter_112000.caffemodel
+75 networks/deploy.prototxt networks/2/75/resnet_75_2_iter_150000.caffemodel
+50 networks/deploy.prototxt networks/2/50/resnet_50_2_iter_110000.caffemodel
+50 networks/deploy.prototxt networks/2/50/resnet_50_2_iter_120000.caffemodel
+#
+100 networks/deploy.prototxt networks/3/100/resnet_100_3_iter_220000.caffemodel
+100 networks/deploy.prototxt networks/3/100/resnet_100_3_iter_220000_2.caffemodel
+90 networks/deploy.prototxt networks/3/90/resnet_90_3_iter_220000.caffemodel
+90 networks/deploy.prototxt networks/3/90/resnet_90_3_iter_220000_2.caffemodel
+75 networks/deploy.prototxt networks/3/75/resnet_75_3_iter_220000.caffemodel
+75 networks/deploy.prototxt networks/3/75/resnet_75_3_iter_220000_2.caffemodel
+50 networks/deploy.prototxt networks/3/50/resnet_50_3_iter_105000.caffemodel
+50 networks/deploy.prototxt networks/3/50/resnet_50_3_iter_110000.caffemodel

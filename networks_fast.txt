@@ -1,0 +1,4 @@
+75 networks/deploy.prototxt networks/3/75/resnet_75_3_iter_220000.caffemodel
+75 networks/deploy.prototxt networks/3/75/resnet_75_3_iter_220000_2.caffemodel
+50 networks/deploy.prototxt networks/3/50/resnet_50_3_iter_105000.caffemodel
+50 networks/deploy.prototxt networks/3/50/resnet_50_3_iter_110000.caffemodel
